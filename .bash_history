@@ -9,3 +9,20 @@ ls
 cd
 ls
 exit
+ls
+emacs index.html
+chmod 777 index.html
+python -m SimpleHTTPServer 80
+python -m SimpleHTTPServer 80 &
+ls
+rm *~
+ls
+git rm 
+ls
+rm #*#
+ls
+exit
+ls
+emacs index.html 
+fg
+emacs index.html 

@@ -2,6 +2,10 @@
   <head>
     <link rel="stylesheet" type="text/css" href="foundation/css/foundation.min.css" />
     <title>Grocery Splice</title>
+    <style>
+      #reciept
+    </style>
+
   </head>
   <body>
     <h1>Welcome to GrocerySplice</h1>
