@@ -35,8 +35,24 @@
   <table id="rtable">
     {{> receipt-field}}
   </table>
-  <button id="add-field">+</button>
-  <h4>Subtotal: $<span class="st">0.00</span></h4>
+  <table id="stable">
+    <tr>
+      <td>
+        <button id="add-field">+</button>
+      </td>
+      <td>Subtotal:</td>
+      <td class="sto">$<span class="st">0.00</span></td>
+    </tr>
+    <tr>
+      <td colspan=2>Tax:</td>
+      <td class="sto">$<input type="text" class="tax" placeholder="0.00"></td>
+    </tr>
+    <tr>
+      <td colspan=2>Total:</td>
+      <td class="sto">$<span class="total">0.00</span></td>
+    </tr>
+  </table>
+  <button id="submit">Create Receipt</button>
 </template>
 
 <template name="receipt-field">
