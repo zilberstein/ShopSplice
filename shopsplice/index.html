@@ -1,5 +1,4 @@
   <head>
-    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Shop Splice</title>
   </head>
   <body>
@@ -7,7 +6,7 @@
       <h1>Shop<span class="splice">Splice</span></h1>
     </div>
     <div id="receipt">
-	     {{> receipt-form}}
+	     {{> receipt}}
     </div>
 </body>
 
@@ -22,9 +21,23 @@
     {{#each items}}
     <tr>
       <td class="l"><input type="checkbox">{{name}}</td>
-      <td class="r">${{price}}</td>
+      <td class="sto">${{price}}</td>
     </tr>
     {{/each}}
+  </table>
+  <table id="stable">
+    <tr>
+      <td colspan=2>Subtotal:</td>
+      <td class="sto">$<span class="st">{{subtotal}}</span></td>
+    </tr>
+    <tr>
+      <td colspan=2>Tax:</td>
+      <td class="sto">$<span class="tax">{{tax}}</span></td>
+    </tr>
+    <tr>
+      <td colspan=2>Total:</td>
+      <td class="sto">$<span class="total">{{total}}</span></td>
+    </tr>
   </table>
   {{/each}}
 </template>

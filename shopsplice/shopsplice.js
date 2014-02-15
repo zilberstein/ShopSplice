@@ -2,9 +2,9 @@ Items = new Meteor.Collection("items");
 
 if (Meteor.isClient) {
   Template.receipt.things = function () {
-      return Items.find({_id:"SCabhcS9rpG53LLbN"}, {sort: {name: 1, price: -1}}).fetch();
+      return Items.find({_id:"r7DMzbNRiL4Nf2ubF"}, {sort: {name: 1, price: -1}}).fetch();
   };
-  Template["receipt-form"].date = Date;
+  Template["receipt-form"].date = new Date().toLocaleDateString();
   Template.date.date = Date;
 
 
@@ -41,9 +41,11 @@ if (Meteor.isClient) {
     $('#submit').click(function(){
       var newR = {};
       newR.name = $('#nameR').val();
-      newR.date = Date();
+      newR.date = new Date().toLocaleDateString();
       newR.tax = Number($('.tax').val());
       newR.items = []
+      newR.subtotal = Number($('.st').html());
+      newR.total = Number($('.total').html());
       items = $('.field');
       for (i = 0; i< items.length; i++) {
         item = {}
