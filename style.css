@@ -17,12 +17,14 @@ body {
 }
 
 #receipt {
-  display: none;
+  background-color: white;
+  padding: 25px;
   width: 800px;
   margin: 0 auto;
   font-size: 16pt;
   text-align: center;
   font-family: monospace;
+  box-shadow: 0 5px 10px #000;
 }
 
 #receipt table {

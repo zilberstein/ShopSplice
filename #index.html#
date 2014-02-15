@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="foundation/css/foundation.min.css" />
+    <title>Grocery Splice</title>
+    <style>
+      #reciept
+    </style>
+
+  </head>
+  <body>
+    <h1>Welcome to GrocerySplice</h1>
+    <div id="reciept">
+      <h2>My Stuff</h2>
+      <table>
+	<tr>
+	  <td>Item 1</td>
+	  <td>$12.34</td>
+	</tr>
+      </table>
+    </div>
+</html>
