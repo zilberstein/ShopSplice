@@ -1,0 +1,42 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "HTTP",
+      "export": true
+    },
+    {
+      "name": "makeErrorByStatus"
+    },
+    {
+      "name": "encodeParams"
+    },
+    {
+      "name": "encodeString"
+    },
+    {
+      "name": "buildUrl"
+    },
+    {
+      "name": "populateData"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/http.js",
+      "length": 19612,
+      "offset": 0,
+      "servePath": "/packages/http.js",
+      "sourceMap": "os/packages/http.js.map"
+    }
+  ]
+}

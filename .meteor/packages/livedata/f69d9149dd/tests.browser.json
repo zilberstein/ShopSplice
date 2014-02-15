@@ -1,0 +1,69 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [
+    {
+      "name": "StubStream"
+    },
+    {
+      "name": "Ledger"
+    },
+    {
+      "name": "objectsWithUsers"
+    },
+    {
+      "name": "errorThrownWhenCallingSetUserIdDirectlyOnServer"
+    },
+    {
+      "name": "One"
+    },
+    {
+      "name": "Two"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "livedata"
+    },
+    {
+      "package": "mongo-livedata"
+    },
+    {
+      "package": "test-helpers"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "deps"
+    },
+    {
+      "package": "minimongo"
+    },
+    {
+      "package": "http"
+    },
+    {
+      "package": "check"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/livedatatests.js",
+      "length": 361732,
+      "offset": 0,
+      "servePath": "/packages/livedata:tests.js",
+      "sourceMap": "tests.browser/packages/livedatatests.js.map"
+    }
+  ]
+}

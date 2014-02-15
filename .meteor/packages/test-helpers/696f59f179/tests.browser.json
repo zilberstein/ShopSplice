@@ -1,0 +1,29 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "test-helpers"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/test-helperstests.js",
+      "length": 9583,
+      "offset": 0,
+      "servePath": "/packages/test-helpers:tests.js",
+      "sourceMap": "tests.browser/packages/test-helperstests.js.map"
+    }
+  ]
+}

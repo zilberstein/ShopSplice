@@ -1,0 +1,64 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "Accounts",
+      "export": true
+    },
+    {
+      "name": "EXPIRE_TOKENS_INTERVAL_MS"
+    },
+    {
+      "name": "CONNECTION_CLOSE_DELAY_MS"
+    },
+    {
+      "name": "getTokenLifetimeMs"
+    },
+    {
+      "name": "loginHandlers"
+    },
+    {
+      "name": "maybeStopExpireTokensInterval"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "service-configuration"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "livedata"
+    },
+    {
+      "package": "mongo-livedata"
+    },
+    {
+      "package": "autopublish",
+      "weak": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/accounts-base.js",
+      "length": 111383,
+      "offset": 0,
+      "servePath": "/packages/accounts-base.js",
+      "sourceMap": "os/packages/accounts-base.js.map"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "ejson"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.os/packages/checktests.js",
+      "length": 33004,
+      "offset": 0,
+      "servePath": "/packages/check:tests.js",
+      "sourceMap": "tests.os/packages/checktests.js.map"
+    }
+  ]
+}

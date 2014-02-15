@@ -1,0 +1,27 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "ServiceConfiguration",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "mongo-livedata"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/service-configuration.js",
+      "length": 2762,
+      "offset": 0,
+      "servePath": "/packages/service-configuration.js",
+      "sourceMap": "browser/packages/service-configuration.js.map"
+    }
+  ]
+}

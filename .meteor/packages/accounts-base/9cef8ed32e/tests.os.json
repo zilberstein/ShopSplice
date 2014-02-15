@@ -1,0 +1,32 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "accounts-base"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "test-helpers"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.os/packages/accounts-basetests.js",
+      "length": 25336,
+      "offset": 0,
+      "servePath": "/packages/accounts-base:tests.js",
+      "sourceMap": "tests.os/packages/accounts-basetests.js.map"
+    }
+  ]
+}

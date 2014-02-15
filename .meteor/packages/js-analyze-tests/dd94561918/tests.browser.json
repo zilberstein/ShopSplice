@@ -1,0 +1,26 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "js-analyze"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/js-analyze-teststests.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/js-analyze-tests:tests.js",
+      "sourceMap": "tests.browser/packages/js-analyze-teststests.js.map"
+    }
+  ]
+}

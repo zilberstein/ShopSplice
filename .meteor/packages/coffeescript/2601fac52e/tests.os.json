@@ -1,0 +1,36 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [
+    {
+      "name": "sharedFromJavascript"
+    },
+    {
+      "name": "__coffeescriptShare"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "coffeescript"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "coffeescript-test-helper"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.os/packages/coffeescripttests.js",
+      "length": 6082,
+      "offset": 0,
+      "servePath": "/packages/coffeescript:tests.js",
+      "sourceMap": "tests.os/packages/coffeescripttests.js.map"
+    }
+  ]
+}

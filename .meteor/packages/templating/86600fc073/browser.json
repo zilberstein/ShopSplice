@@ -1,0 +1,45 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "Template",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "spark"
+    },
+    {
+      "package": "handlebars"
+    },
+    {
+      "package": "minimongo",
+      "weak": true
+    }
+  ],
+  "implies": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "spark"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/templating.js",
+      "length": 22534,
+      "offset": 0,
+      "servePath": "/packages/templating.js",
+      "sourceMap": "browser/packages/templating.js.map"
+    }
+  ]
+}

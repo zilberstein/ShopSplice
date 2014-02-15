@@ -1,0 +1,33 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "logging"
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.os/packages/loggingtests.js",
+      "length": 23189,
+      "offset": 0,
+      "servePath": "/packages/logging:tests.js",
+      "sourceMap": "tests.os/packages/loggingtests.js.map"
+    }
+  ]
+}

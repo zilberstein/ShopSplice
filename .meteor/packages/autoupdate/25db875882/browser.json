@@ -1,0 +1,40 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "Autoupdate",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "deps"
+    },
+    {
+      "package": "livedata"
+    },
+    {
+      "package": "mongo-livedata"
+    },
+    {
+      "package": "deps"
+    },
+    {
+      "package": "reload",
+      "weak": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/autoupdate.js",
+      "length": 8802,
+      "offset": 0,
+      "servePath": "/packages/autoupdate.js",
+      "sourceMap": "browser/packages/autoupdate.js.map"
+    }
+  ]
+}

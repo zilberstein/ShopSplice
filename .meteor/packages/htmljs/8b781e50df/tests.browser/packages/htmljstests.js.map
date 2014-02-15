@@ -1,0 +1,1 @@
+{"version":3,"file":"/packages/htmljs:tests.js","sources":["htmljs/htmljs_test.js"],"names":[],"mappings":";;;;;;;;;AACA,wC;AACA,mE;AACA,gE;AACA,G","sourcesContent":["\nTinytest.add(\"htmljs\", function (test) {\n  // Make sure \"style\" works, which has to be special-cased for IE.\n  test.equal(DIV({style:\"display:none\"}).style.display, \"none\");\n});\n"]}

@@ -1,0 +1,20 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/tinytesttests.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/tinytest:tests.js",
+      "sourceMap": "tests.browser/packages/tinytesttests.js.map"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "Oauth",
+      "export": true
+    },
+    {
+      "name": "OauthTest",
+      "export": "tests"
+    },
+    {
+      "name": "middleware"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "routepolicy"
+    },
+    {
+      "package": "webapp"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "service-configuration"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/oauth.js",
+      "length": 18801,
+      "offset": 0,
+      "servePath": "/packages/oauth.js",
+      "sourceMap": "os/packages/oauth.js.map"
+    }
+  ]
+}

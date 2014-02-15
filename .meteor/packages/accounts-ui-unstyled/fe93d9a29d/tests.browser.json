@@ -1,0 +1,26 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "accounts-ui-unstyled"
+    },
+    {
+      "package": "tinytest"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/accounts-ui-unstyledtests.js",
+      "length": 2642,
+      "offset": 0,
+      "servePath": "/packages/accounts-ui-unstyled:tests.js",
+      "sourceMap": "tests.browser/packages/accounts-ui-unstyledtests.js.map"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "routepolicy"
+    },
+    {
+      "package": "tinytest"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.os/packages/routepolicytests.js",
+      "length": 7428,
+      "offset": 0,
+      "servePath": "/packages/routepolicy:tests.js",
+      "sourceMap": "tests.os/packages/routepolicytests.js.map"
+    }
+  ]
+}

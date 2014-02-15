@@ -1,0 +1,26 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "htmljs"
+    },
+    {
+      "package": "tinytest"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/htmljstests.js",
+      "length": 980,
+      "offset": 0,
+      "servePath": "/packages/htmljs:tests.js",
+      "sourceMap": "tests.browser/packages/htmljstests.js.map"
+    }
+  ]
+}

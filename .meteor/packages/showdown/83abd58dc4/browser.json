@@ -1,0 +1,28 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "Showdown",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "handlebars",
+      "weak": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/showdown.js",
+      "length": 163136,
+      "offset": 0,
+      "servePath": "/packages/showdown.js",
+      "sourceMap": "browser/packages/showdown.js.map"
+    }
+  ]
+}

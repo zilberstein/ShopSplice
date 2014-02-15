@@ -1,0 +1,20 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.os/packages/accounts-oauthtests.js",
+      "length": 1098,
+      "offset": 0,
+      "servePath": "/packages/accounts-oauth:tests.js",
+      "sourceMap": "tests.os/packages/accounts-oauthtests.js.map"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "test-helpers"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/meteortests.js",
+      "length": 31634,
+      "offset": 0,
+      "servePath": "/packages/meteor:tests.js",
+      "sourceMap": "tests.browser/packages/meteortests.js.map"
+    }
+  ]
+}

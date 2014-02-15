@@ -1,0 +1,20 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/backbonetests.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/backbone:tests.js",
+      "sourceMap": "tests.browser/packages/backbonetests.js.map"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/js-analyzetests.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/js-analyze:tests.js",
+      "sourceMap": "tests.browser/packages/js-analyzetests.js.map"
+    }
+  ]
+}

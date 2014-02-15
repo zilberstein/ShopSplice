@@ -1,0 +1,44 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "minimongo"
+    },
+    {
+      "package": "test-helpers"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "ordered-dict"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "deps"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/minimongotests.js",
+      "length": 285125,
+      "offset": 0,
+      "servePath": "/packages/minimongo:tests.js",
+      "sourceMap": "tests.browser/packages/minimongotests.js.map"
+    }
+  ]
+}

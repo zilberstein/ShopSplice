@@ -1,0 +1,79 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "Accounts",
+      "export": true
+    },
+    {
+      "name": "EXPIRE_TOKENS_INTERVAL_MS"
+    },
+    {
+      "name": "CONNECTION_CLOSE_DELAY_MS"
+    },
+    {
+      "name": "getTokenLifetimeMs"
+    },
+    {
+      "name": "autoLoginEnabled"
+    },
+    {
+      "name": "makeClientLoggedOut"
+    },
+    {
+      "name": "makeClientLoggedIn"
+    },
+    {
+      "name": "storeLoginToken"
+    },
+    {
+      "name": "unstoreLoginToken"
+    },
+    {
+      "name": "storedLoginToken"
+    },
+    {
+      "name": "storedLoginTokenExpires"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "localstorage"
+    },
+    {
+      "package": "deps"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "service-configuration"
+    },
+    {
+      "package": "livedata"
+    },
+    {
+      "package": "mongo-livedata"
+    },
+    {
+      "package": "handlebars",
+      "weak": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/accounts-base.js",
+      "length": 53711,
+      "offset": 0,
+      "servePath": "/packages/accounts-base.js",
+      "sourceMap": "browser/packages/accounts-base.js.map"
+    }
+  ]
+}

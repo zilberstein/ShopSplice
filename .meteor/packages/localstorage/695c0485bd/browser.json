@@ -1,0 +1,22 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "jquery"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/localstorage.js",
+      "length": 5626,
+      "offset": 0,
+      "servePath": "/packages/localstorage.js",
+      "sourceMap": "browser/packages/localstorage.js.map"
+    }
+  ]
+}

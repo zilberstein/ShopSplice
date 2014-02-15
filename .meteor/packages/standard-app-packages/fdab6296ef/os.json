@@ -1,0 +1,69 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "reload"
+    },
+    {
+      "package": "autoupdate"
+    }
+  ],
+  "implies": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "webapp"
+    },
+    {
+      "package": "logging"
+    },
+    {
+      "package": "deps"
+    },
+    {
+      "package": "session"
+    },
+    {
+      "package": "livedata"
+    },
+    {
+      "package": "mongo-livedata"
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "handlebars"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "jquery"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "ejson"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/standard-app-packages.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/standard-app-packages.js",
+      "sourceMap": "os/packages/standard-app-packages.js.map"
+    }
+  ]
+}

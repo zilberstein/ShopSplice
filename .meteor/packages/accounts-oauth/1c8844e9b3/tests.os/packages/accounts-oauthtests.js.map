@@ -1,0 +1,1 @@
+{"version":3,"file":"/packages/accounts-oauth:tests.js","sources":["accounts-oauth/oauth_tests.js"],"names":[],"mappings":";;;;;;;;AAAA,sG;AACA,qF","sourcesContent":["// XXX Add a test to ensure that successful logins call Accounts.updateOrCreateUserFromExternalService\n// XXX Add a test to ensure that a missing or failed loginResult is handled correctly\n"]}

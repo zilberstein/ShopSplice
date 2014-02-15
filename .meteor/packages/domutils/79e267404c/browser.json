@@ -1,0 +1,30 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "DomUtils",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "jquery"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/domutils.js",
+      "length": 57782,
+      "offset": 0,
+      "servePath": "/packages/domutils.js",
+      "sourceMap": "browser/packages/domutils.js.map"
+    }
+  ]
+}

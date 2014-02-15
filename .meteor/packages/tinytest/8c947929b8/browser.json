@@ -1,0 +1,51 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "Tinytest",
+      "export": true
+    },
+    {
+      "name": "TestCaseResults"
+    },
+    {
+      "name": "TestCase"
+    },
+    {
+      "name": "TestManager"
+    },
+    {
+      "name": "TestRun"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "livedata"
+    },
+    {
+      "package": "mongo-livedata"
+    },
+    {
+      "package": "check"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/tinytest.js",
+      "length": 64296,
+      "offset": 0,
+      "servePath": "/packages/tinytest.js",
+      "sourceMap": "browser/packages/tinytest.js.map"
+    }
+  ]
+}

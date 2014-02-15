@@ -1,0 +1,22 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "application-configuration"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/email.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/email.js",
+      "sourceMap": "browser/packages/email.js.map"
+    }
+  ]
+}

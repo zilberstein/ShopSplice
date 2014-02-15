@@ -1,0 +1,299 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "A",
+      "export": true
+    },
+    {
+      "name": "ABBR",
+      "export": true
+    },
+    {
+      "name": "ACRONYM",
+      "export": true
+    },
+    {
+      "name": "B",
+      "export": true
+    },
+    {
+      "name": "BDO",
+      "export": true
+    },
+    {
+      "name": "BIG",
+      "export": true
+    },
+    {
+      "name": "BLOCKQUOTE",
+      "export": true
+    },
+    {
+      "name": "BR",
+      "export": true
+    },
+    {
+      "name": "BUTTON",
+      "export": true
+    },
+    {
+      "name": "CAPTION",
+      "export": true
+    },
+    {
+      "name": "CITE",
+      "export": true
+    },
+    {
+      "name": "CODE",
+      "export": true
+    },
+    {
+      "name": "COL",
+      "export": true
+    },
+    {
+      "name": "COLGROUP",
+      "export": true
+    },
+    {
+      "name": "DD",
+      "export": true
+    },
+    {
+      "name": "DEL",
+      "export": true
+    },
+    {
+      "name": "DFN",
+      "export": true
+    },
+    {
+      "name": "DIV",
+      "export": true
+    },
+    {
+      "name": "DL",
+      "export": true
+    },
+    {
+      "name": "DT",
+      "export": true
+    },
+    {
+      "name": "EM",
+      "export": true
+    },
+    {
+      "name": "FIELDSET",
+      "export": true
+    },
+    {
+      "name": "FORM",
+      "export": true
+    },
+    {
+      "name": "H1",
+      "export": true
+    },
+    {
+      "name": "H2",
+      "export": true
+    },
+    {
+      "name": "H3",
+      "export": true
+    },
+    {
+      "name": "H4",
+      "export": true
+    },
+    {
+      "name": "H5",
+      "export": true
+    },
+    {
+      "name": "H6",
+      "export": true
+    },
+    {
+      "name": "HR",
+      "export": true
+    },
+    {
+      "name": "I",
+      "export": true
+    },
+    {
+      "name": "IFRAME",
+      "export": true
+    },
+    {
+      "name": "IMG",
+      "export": true
+    },
+    {
+      "name": "INPUT",
+      "export": true
+    },
+    {
+      "name": "INS",
+      "export": true
+    },
+    {
+      "name": "KBD",
+      "export": true
+    },
+    {
+      "name": "LABEL",
+      "export": true
+    },
+    {
+      "name": "LEGEND",
+      "export": true
+    },
+    {
+      "name": "LI",
+      "export": true
+    },
+    {
+      "name": "OBJECT",
+      "export": true
+    },
+    {
+      "name": "OL",
+      "export": true
+    },
+    {
+      "name": "OPTGROUP",
+      "export": true
+    },
+    {
+      "name": "OPTION",
+      "export": true
+    },
+    {
+      "name": "P",
+      "export": true
+    },
+    {
+      "name": "PARAM",
+      "export": true
+    },
+    {
+      "name": "PRE",
+      "export": true
+    },
+    {
+      "name": "Q",
+      "export": true
+    },
+    {
+      "name": "S",
+      "export": true
+    },
+    {
+      "name": "SAMP",
+      "export": true
+    },
+    {
+      "name": "SCRIPT",
+      "export": true
+    },
+    {
+      "name": "SELECT",
+      "export": true
+    },
+    {
+      "name": "SMALL",
+      "export": true
+    },
+    {
+      "name": "SPAN",
+      "export": true
+    },
+    {
+      "name": "STRIKE",
+      "export": true
+    },
+    {
+      "name": "STRONG",
+      "export": true
+    },
+    {
+      "name": "SUB",
+      "export": true
+    },
+    {
+      "name": "SUP",
+      "export": true
+    },
+    {
+      "name": "TABLE",
+      "export": true
+    },
+    {
+      "name": "TBODY",
+      "export": true
+    },
+    {
+      "name": "TD",
+      "export": true
+    },
+    {
+      "name": "TEXTAREA",
+      "export": true
+    },
+    {
+      "name": "TFOOT",
+      "export": true
+    },
+    {
+      "name": "TH",
+      "export": true
+    },
+    {
+      "name": "THEAD",
+      "export": true
+    },
+    {
+      "name": "TR",
+      "export": true
+    },
+    {
+      "name": "TT",
+      "export": true
+    },
+    {
+      "name": "U",
+      "export": true
+    },
+    {
+      "name": "UL",
+      "export": true
+    },
+    {
+      "name": "VAR",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/htmljs.js",
+      "length": 11248,
+      "offset": 0,
+      "servePath": "/packages/htmljs.js",
+      "sourceMap": "browser/packages/htmljs.js.map"
+    }
+  ]
+}

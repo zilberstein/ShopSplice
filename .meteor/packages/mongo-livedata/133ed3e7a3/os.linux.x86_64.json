@@ -1,0 +1,118 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "MongoInternals",
+      "export": true
+    },
+    {
+      "name": "MongoTest",
+      "export": "tests"
+    },
+    {
+      "name": "MongoConnection"
+    },
+    {
+      "name": "CursorDescription"
+    },
+    {
+      "name": "Cursor"
+    },
+    {
+      "name": "listenAll"
+    },
+    {
+      "name": "forEachTrigger"
+    },
+    {
+      "name": "idForOp"
+    },
+    {
+      "name": "OplogHandle"
+    },
+    {
+      "name": "ObserveMultiplexer"
+    },
+    {
+      "name": "ObserveHandle"
+    },
+    {
+      "name": "DocFetcher"
+    },
+    {
+      "name": "PollingObserveDriver"
+    },
+    {
+      "name": "OplogObserveDriver"
+    },
+    {
+      "name": "LocalCollectionDriver"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "json"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "minimongo"
+    },
+    {
+      "package": "logging"
+    },
+    {
+      "package": "livedata"
+    },
+    {
+      "package": "deps"
+    },
+    {
+      "package": "application-configuration"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "insecure",
+      "weak": true
+    },
+    {
+      "package": "autopublish",
+      "weak": true
+    },
+    {
+      "package": "disable-oplog",
+      "weak": true
+    },
+    {
+      "package": "webapp",
+      "weak": true
+    },
+    {
+      "package": "facts",
+      "weak": true
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os.linux.x86_64/packages/mongo-livedata.js",
+      "length": 365832,
+      "offset": 0,
+      "servePath": "/packages/mongo-livedata.js",
+      "sourceMap": "os.linux.x86_64/packages/mongo-livedata.js.map"
+    }
+  ]
+}

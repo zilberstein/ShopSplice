@@ -1,0 +1,29 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "jsparse"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/jsparsetests.js",
+      "length": 84370,
+      "offset": 0,
+      "servePath": "/packages/jsparse:tests.js",
+      "sourceMap": "tests.browser/packages/jsparsetests.js.map"
+    }
+  ]
+}

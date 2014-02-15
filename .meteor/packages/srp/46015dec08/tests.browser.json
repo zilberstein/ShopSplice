@@ -1,0 +1,29 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "srp"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/srptests.js",
+      "length": 13538,
+      "offset": 0,
+      "servePath": "/packages/srp:tests.js",
+      "sourceMap": "tests.browser/packages/srptests.js.map"
+    }
+  ]
+}

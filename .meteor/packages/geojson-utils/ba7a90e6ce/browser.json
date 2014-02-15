@@ -1,0 +1,27 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "GeoJSON",
+      "export": true
+    },
+    {
+      "name": "module"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/geojson-utils.js",
+      "length": 46969,
+      "offset": 0,
+      "servePath": "/packages/geojson-utils.js",
+      "sourceMap": "browser/packages/geojson-utils.js.map"
+    }
+  ]
+}

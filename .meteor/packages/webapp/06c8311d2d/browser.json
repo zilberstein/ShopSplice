@@ -1,0 +1,27 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "application-configuration",
+      "unordered": true
+    },
+    {
+      "package": "follower-livedata",
+      "unordered": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/webapp.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/webapp.js",
+      "sourceMap": "browser/packages/webapp.js.map"
+    }
+  ]
+}

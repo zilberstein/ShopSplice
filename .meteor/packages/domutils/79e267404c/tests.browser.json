@@ -1,0 +1,32 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "domutils"
+    },
+    {
+      "package": "test-helpers"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/domutilstests.js",
+      "length": 3005,
+      "offset": 0,
+      "servePath": "/packages/domutils:tests.js",
+      "sourceMap": "tests.browser/packages/domutilstests.js.map"
+    }
+  ]
+}

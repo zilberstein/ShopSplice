@@ -1,0 +1,37 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "Ctl",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "livedata"
+    },
+    {
+      "package": "mongo-livedata"
+    },
+    {
+      "package": "follower-livedata"
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/ctl-helper.js",
+      "length": 21007,
+      "offset": 0,
+      "servePath": "/packages/ctl-helper.js",
+      "sourceMap": "os/packages/ctl-helper.js.map"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "format": "unipackage-pre1",
+  "summary": "Allows templates to be defined in .html files",
+  "internal": true,
+  "slices": [
+    {
+      "name": "main",
+      "arch": "browser",
+      "path": "browser.json"
+    },
+    {
+      "name": "main",
+      "arch": "os",
+      "path": "os.json"
+    },
+    {
+      "name": "tests",
+      "arch": "browser",
+      "path": "tests.browser.json"
+    },
+    {
+      "name": "tests",
+      "arch": "os",
+      "path": "tests.os.json"
+    }
+  ],
+  "defaultSlices": {
+    "browser": [
+      "main"
+    ],
+    "os": [
+      "main"
+    ]
+  },
+  "testSlices": {
+    "browser": [
+      "tests"
+    ],
+    "os": [
+      "tests"
+    ]
+  },
+  "plugins": [
+    {
+      "name": "compileTemplates",
+      "arch": "os",
+      "path": "plugin.compileTemplates.os/program.json"
+    }
+  ]
+}

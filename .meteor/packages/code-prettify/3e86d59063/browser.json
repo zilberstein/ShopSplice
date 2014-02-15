@@ -1,0 +1,33 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "browser/packages/code-prettify/prettify.css",
+      "length": 675,
+      "offset": 0,
+      "servePath": "/packages/code-prettify/prettify.css"
+    },
+    {
+      "type": "css",
+      "file": "browser/packages/code-prettify/styles/sunburst.css",
+      "length": 1945,
+      "offset": 0,
+      "servePath": "/packages/code-prettify/styles/sunburst.css"
+    },
+    {
+      "type": "prelink",
+      "file": "browser/packages/code-prettify.js",
+      "length": 14268,
+      "offset": 0,
+      "servePath": "/packages/code-prettify.js",
+      "sourceMap": "browser/packages/code-prettify.js.map"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "mongo-livedata"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "test-helpers"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "livedata"
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.os.linux.x86_64/packages/mongo-livedatatests.js",
+      "length": 432472,
+      "offset": 0,
+      "servePath": "/packages/mongo-livedata:tests.js",
+      "sourceMap": "tests.os.linux.x86_64/packages/mongo-livedatatests.js.map"
+    }
+  ]
+}

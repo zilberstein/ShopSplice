@@ -1,0 +1,36 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "accounts-base"
+    }
+  ],
+  "implies": [
+    {
+      "package": "accounts-base"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/accounts-oauth.js",
+      "length": 5839,
+      "offset": 0,
+      "servePath": "/packages/accounts-oauth.js",
+      "sourceMap": "browser/packages/accounts-oauth.js.map"
+    }
+  ]
+}

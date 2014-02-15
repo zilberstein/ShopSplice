@@ -1,0 +1,105 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "pollUntil",
+      "export": "tests"
+    },
+    {
+      "name": "WrappedFrag",
+      "export": "tests"
+    },
+    {
+      "name": "try_all_permutations",
+      "export": "tests"
+    },
+    {
+      "name": "SeededRandom",
+      "export": "tests"
+    },
+    {
+      "name": "ReactiveVar",
+      "export": "tests"
+    },
+    {
+      "name": "OnscreenDiv",
+      "export": "tests"
+    },
+    {
+      "name": "clickElement",
+      "export": "tests"
+    },
+    {
+      "name": "blurElement",
+      "export": "tests"
+    },
+    {
+      "name": "focusElement",
+      "export": "tests"
+    },
+    {
+      "name": "simulateEvent",
+      "export": "tests"
+    },
+    {
+      "name": "getStyleProperty",
+      "export": "tests"
+    },
+    {
+      "name": "canonicalizeHtml",
+      "export": "tests"
+    },
+    {
+      "name": "withCallbackLogger",
+      "export": "tests"
+    },
+    {
+      "name": "testAsyncMulti",
+      "export": "tests"
+    },
+    {
+      "name": "simplePoll",
+      "export": "tests"
+    },
+    {
+      "name": "makeTestConnection",
+      "export": "tests"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "deps"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "domutils"
+    },
+    {
+      "package": "livedata"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/test-helpers.js",
+      "length": 79162,
+      "offset": 0,
+      "servePath": "/packages/test-helpers.js",
+      "sourceMap": "os/packages/test-helpers.js.map"
+    }
+  ]
+}

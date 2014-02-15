@@ -1,0 +1,37 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "ReactiveDict",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "deps"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "mongo-livedata",
+      "weak": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/reactive-dict.js",
+      "length": 12341,
+      "offset": 0,
+      "servePath": "/packages/reactive-dict.js",
+      "sourceMap": "browser/packages/reactive-dict.js.map"
+    }
+  ]
+}

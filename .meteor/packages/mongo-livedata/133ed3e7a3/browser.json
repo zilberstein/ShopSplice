@@ -1,0 +1,57 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "LocalCollectionDriver"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "json"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "minimongo"
+    },
+    {
+      "package": "logging"
+    },
+    {
+      "package": "livedata"
+    },
+    {
+      "package": "deps"
+    },
+    {
+      "package": "application-configuration"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "insecure",
+      "weak": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/mongo-livedata.js",
+      "length": 100450,
+      "offset": 0,
+      "servePath": "/packages/mongo-livedata.js",
+      "sourceMap": "browser/packages/mongo-livedata.js.map"
+    }
+  ]
+}

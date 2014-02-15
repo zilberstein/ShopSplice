@@ -1,0 +1,64 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "LocalCollection",
+      "export": true
+    },
+    {
+      "name": "MinimongoTest",
+      "export": "tests"
+    },
+    {
+      "name": "MinimongoError"
+    },
+    {
+      "name": "projectionDetails"
+    },
+    {
+      "name": "pathsToTree"
+    },
+    {
+      "name": "getPathsWithoutNumericKeys"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "json"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "ordered-dict"
+    },
+    {
+      "package": "deps"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "ordered-dict"
+    },
+    {
+      "package": "geojson-utils"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/minimongo.js",
+      "length": 344408,
+      "offset": 0,
+      "servePath": "/packages/minimongo.js",
+      "sourceMap": "os/packages/minimongo.js.map"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "format": "unipackage-pre1",
+  "summary": "The dynamic stylesheet language",
+  "slices": [
+    {
+      "name": "main",
+      "arch": "browser",
+      "path": "browser.json"
+    },
+    {
+      "name": "main",
+      "arch": "os",
+      "path": "os.json"
+    },
+    {
+      "name": "tests",
+      "arch": "browser",
+      "path": "tests.browser.json"
+    },
+    {
+      "name": "tests",
+      "arch": "os",
+      "path": "tests.os.json"
+    }
+  ],
+  "defaultSlices": {
+    "browser": [
+      "main"
+    ],
+    "os": [
+      "main"
+    ]
+  },
+  "testSlices": {
+    "browser": [
+      "tests"
+    ],
+    "os": [
+      "tests"
+    ]
+  },
+  "plugins": [
+    {
+      "name": "compileLess",
+      "arch": "os",
+      "path": "plugin.compileLess.os/program.json"
+    }
+  ]
+}

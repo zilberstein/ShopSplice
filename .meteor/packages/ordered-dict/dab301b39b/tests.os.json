@@ -1,0 +1,20 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.os/packages/ordered-dicttests.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/ordered-dict:tests.js",
+      "sourceMap": "tests.os/packages/ordered-dicttests.js.map"
+    }
+  ]
+}

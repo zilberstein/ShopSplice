@@ -1,0 +1,27 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "Deps",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/deps.js",
+      "length": 32677,
+      "offset": 0,
+      "servePath": "/packages/deps.js",
+      "sourceMap": "os/packages/deps.js.map"
+    }
+  ]
+}

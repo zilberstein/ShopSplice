@@ -1,0 +1,59 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "bootstrap"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "session"
+    },
+    {
+      "package": "reload"
+    },
+    {
+      "package": "spark"
+    },
+    {
+      "package": "livedata"
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "deps"
+    }
+  ],
+  "resources": [
+    {
+      "type": "head",
+      "file": "browser/head",
+      "length": 20,
+      "offset": 0
+    },
+    {
+      "type": "css",
+      "file": "browser/packages/test-in-browser/driver.css",
+      "length": 2486,
+      "offset": 0,
+      "servePath": "/packages/test-in-browser/driver.css"
+    },
+    {
+      "type": "prelink",
+      "file": "browser/packages/test-in-browser.js",
+      "length": 50634,
+      "offset": 0,
+      "servePath": "/packages/test-in-browser.js",
+      "sourceMap": "browser/packages/test-in-browser.js.map"
+    }
+  ]
+}

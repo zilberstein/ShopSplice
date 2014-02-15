@@ -1,0 +1,42 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [
+    {
+      "name": "html_scanner"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "htmljs"
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "handlebars"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "handlebars"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.os/packages/templatingtests.js",
+      "length": 39388,
+      "offset": 0,
+      "servePath": "/packages/templating:tests.js",
+      "sourceMap": "tests.os/packages/templatingtests.js.map"
+    }
+  ]
+}

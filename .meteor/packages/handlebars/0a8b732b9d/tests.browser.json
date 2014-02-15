@@ -1,0 +1,26 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/handlebarstests.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/handlebars:tests.js",
+      "sourceMap": "tests.browser/packages/handlebarstests.js.map"
+    }
+  ]
+}

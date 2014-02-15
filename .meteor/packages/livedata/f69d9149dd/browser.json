@@ -1,0 +1,83 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "DDP",
+      "export": true
+    },
+    {
+      "name": "LivedataTest",
+      "export": "tests"
+    },
+    {
+      "name": "Retry"
+    },
+    {
+      "name": "SockJS"
+    },
+    {
+      "name": "toSockjsUrl"
+    },
+    {
+      "name": "toWebsocketUrl"
+    },
+    {
+      "name": "SUPPORTED_DDP_VERSIONS"
+    },
+    {
+      "name": "MethodInvocation"
+    },
+    {
+      "name": "parseDDP"
+    },
+    {
+      "name": "stringifyDDP"
+    },
+    {
+      "name": "allConnections"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "json"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "deps"
+    },
+    {
+      "package": "logging"
+    },
+    {
+      "package": "reload",
+      "weak": true
+    },
+    {
+      "package": "minimongo"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/livedata.js",
+      "length": 558722,
+      "offset": 0,
+      "servePath": "/packages/livedata.js",
+      "sourceMap": "browser/packages/livedata.js.map"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "jquery"
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "browser/packages/bootstrap/css/bootstrap.css",
+      "length": 127247,
+      "offset": 0,
+      "servePath": "/packages/bootstrap/css/bootstrap.css"
+    },
+    {
+      "type": "css",
+      "file": "browser/packages/bootstrap/css/bootstrap-responsive.css",
+      "length": 22111,
+      "offset": 0,
+      "servePath": "/packages/bootstrap/css/bootstrap-responsive.css"
+    },
+    {
+      "type": "asset",
+      "file": "browser/packages/bootstrap/img/glyphicons-halflings.png",
+      "length": 12799,
+      "offset": 0,
+      "servePath": "/packages/bootstrap/img/glyphicons-halflings.png",
+      "path": "img/glyphicons-halflings.png"
+    },
+    {
+      "type": "asset",
+      "file": "browser/packages/bootstrap/img/glyphicons-halflings-white.png",
+      "length": 8777,
+      "offset": 0,
+      "servePath": "/packages/bootstrap/img/glyphicons-halflings-white.png",
+      "path": "img/glyphicons-halflings-white.png"
+    },
+    {
+      "type": "css",
+      "file": "browser/packages/bootstrap/css/bootstrap-override.css",
+      "length": 1550,
+      "offset": 0,
+      "servePath": "/packages/bootstrap/css/bootstrap-override.css"
+    },
+    {
+      "type": "prelink",
+      "file": "browser/packages/bootstrap.js",
+      "length": 281028,
+      "offset": 0,
+      "servePath": "/packages/bootstrap.js",
+      "sourceMap": "browser/packages/bootstrap.js.map"
+    }
+  ]
+}

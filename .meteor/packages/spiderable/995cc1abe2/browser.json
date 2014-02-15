@@ -1,0 +1,31 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "head",
+      "file": "browser/head",
+      "length": 34,
+      "offset": 0
+    },
+    {
+      "type": "prelink",
+      "file": "browser/packages/spiderable.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/spiderable.js",
+      "sourceMap": "browser/packages/spiderable.js.map"
+    }
+  ]
+}

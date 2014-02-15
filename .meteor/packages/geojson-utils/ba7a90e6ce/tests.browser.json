@@ -1,0 +1,26 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "geojson-utils"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/geojson-utilstests.js",
+      "length": 11666,
+      "offset": 0,
+      "servePath": "/packages/geojson-utils:tests.js",
+      "sourceMap": "tests.browser/packages/geojson-utilstests.js.map"
+    }
+  ]
+}

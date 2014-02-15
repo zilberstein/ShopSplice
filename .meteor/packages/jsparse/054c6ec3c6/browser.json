@@ -1,0 +1,38 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "JSLexer",
+      "export": true
+    },
+    {
+      "name": "JSParser",
+      "export": true
+    },
+    {
+      "name": "ParseNode",
+      "export": true
+    },
+    {
+      "name": "Parser"
+    },
+    {
+      "name": "Parsers"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/jsparse.js",
+      "length": 187561,
+      "offset": 0,
+      "servePath": "/packages/jsparse.js",
+      "sourceMap": "browser/packages/jsparse.js.map"
+    }
+  ]
+}

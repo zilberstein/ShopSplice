@@ -1,0 +1,35 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "service-configuration"
+    },
+    {
+      "package": "oauth1"
+    },
+    {
+      "package": "oauth"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.os/packages/oauth1tests.js",
+      "length": 9553,
+      "offset": 0,
+      "servePath": "/packages/oauth1:tests.js",
+      "sourceMap": "tests.os/packages/oauth1tests.js.map"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "Spiderable",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "webapp"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/spiderable.js",
+      "length": 13438,
+      "offset": 0,
+      "servePath": "/packages/spiderable.js",
+      "sourceMap": "os/packages/spiderable.js.map"
+    }
+  ]
+}

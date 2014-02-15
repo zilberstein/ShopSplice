@@ -1,0 +1,42 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "Github",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "oauth2"
+    },
+    {
+      "package": "oauth"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "service-configuration"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/github.js",
+      "length": 6713,
+      "offset": 0,
+      "servePath": "/packages/github.js",
+      "sourceMap": "browser/packages/github.js.map"
+    }
+  ]
+}

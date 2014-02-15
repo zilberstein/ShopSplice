@@ -1,0 +1,48 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "livedata"
+    },
+    {
+      "package": "mongo-livedata"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "spark"
+    },
+    {
+      "package": "templating"
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "browser/packages/madewith/madewith.css",
+      "length": 800,
+      "offset": 0,
+      "servePath": "/packages/madewith/madewith.css"
+    },
+    {
+      "type": "css",
+      "file": "browser/packages/madewith/madewith_badge.css",
+      "length": 3210,
+      "offset": 0,
+      "servePath": "/packages/madewith/madewith_badge.css"
+    },
+    {
+      "type": "prelink",
+      "file": "browser/packages/madewith.js",
+      "length": 4979,
+      "offset": 0,
+      "servePath": "/packages/madewith.js",
+      "sourceMap": "browser/packages/madewith.js.map"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "tinytest"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/randomtests.js",
+      "length": 3184,
+      "offset": 0,
+      "servePath": "/packages/random:tests.js",
+      "sourceMap": "tests.browser/packages/randomtests.js.map"
+    }
+  ]
+}

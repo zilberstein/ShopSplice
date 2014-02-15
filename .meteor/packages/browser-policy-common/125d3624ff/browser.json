@@ -1,0 +1,19 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/browser-policy-common.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/browser-policy-common.js",
+      "sourceMap": "browser/packages/browser-policy-common.js.map"
+    }
+  ]
+}

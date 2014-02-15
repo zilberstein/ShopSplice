@@ -1,0 +1,27 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "email"
+    },
+    {
+      "package": "tinytest"
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.os/packages/emailtests.js",
+      "length": 4091,
+      "offset": 0,
+      "servePath": "/packages/email:tests.js",
+      "sourceMap": "tests.os/packages/emailtests.js.map"
+    }
+  ]
+}

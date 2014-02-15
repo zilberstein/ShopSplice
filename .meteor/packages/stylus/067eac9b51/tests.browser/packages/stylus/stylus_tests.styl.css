@@ -1,0 +1,6 @@
+#stylus-tests {
+  zoom: 1;
+}
+.stylus-dashy-left-border {
+  border-left: 1px dashed #000;
+}

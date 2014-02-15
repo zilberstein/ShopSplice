@@ -1,0 +1,30 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "Log",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "ejson"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/logging.js",
+      "length": 26404,
+      "offset": 0,
+      "servePath": "/packages/logging.js",
+      "sourceMap": "browser/packages/logging.js.map"
+    }
+  ]
+}

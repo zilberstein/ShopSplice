@@ -1,0 +1,20 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.os/packages/browser-policy-framingtests.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/browser-policy-framing:tests.js",
+      "sourceMap": "tests.os/packages/browser-policy-framingtests.js.map"
+    }
+  ]
+}

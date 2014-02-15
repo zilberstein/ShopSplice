@@ -1,0 +1,39 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "stylus"
+    },
+    {
+      "package": "test-helpers"
+    },
+    {
+      "package": "spark"
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "tests.browser/packages/stylus/stylus_tests.styl.css",
+      "length": 91,
+      "offset": 0,
+      "servePath": "/packages/stylus/stylus_tests.styl.css"
+    },
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/stylustests.js",
+      "length": 1652,
+      "offset": 0,
+      "servePath": "/packages/stylus:tests.js",
+      "sourceMap": "tests.browser/packages/stylustests.js.map"
+    }
+  ]
+}

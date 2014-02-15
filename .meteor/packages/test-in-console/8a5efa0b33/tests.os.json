@@ -1,0 +1,20 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.os/packages/test-in-consoletests.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/test-in-console:tests.js",
+      "sourceMap": "tests.os/packages/test-in-consoletests.js.map"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "session"
+    },
+    {
+      "package": "deps"
+    },
+    {
+      "package": "mongo-livedata"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/sessiontests.js",
+      "length": 20226,
+      "offset": 0,
+      "servePath": "/packages/session:tests.js",
+      "sourceMap": "tests.browser/packages/sessiontests.js.map"
+    }
+  ]
+}

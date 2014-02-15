@@ -1,0 +1,50 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "accounts-password"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "test-helpers"
+    },
+    {
+      "package": "deps"
+    },
+    {
+      "package": "accounts-base"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "email"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "livedata"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.os/packages/accounts-passwordtests.js",
+      "length": 65830,
+      "offset": 0,
+      "servePath": "/packages/accounts-password:tests.js",
+      "sourceMap": "tests.os/packages/accounts-passwordtests.js.map"
+    }
+  ]
+}

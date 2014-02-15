@@ -1,0 +1,107 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "DDP",
+      "export": true
+    },
+    {
+      "name": "DDPServer",
+      "export": true
+    },
+    {
+      "name": "LivedataTest",
+      "export": "tests"
+    },
+    {
+      "name": "Retry"
+    },
+    {
+      "name": "toSockjsUrl"
+    },
+    {
+      "name": "toWebsocketUrl"
+    },
+    {
+      "name": "StreamServer"
+    },
+    {
+      "name": "Server"
+    },
+    {
+      "name": "SUPPORTED_DDP_VERSIONS"
+    },
+    {
+      "name": "MethodInvocation"
+    },
+    {
+      "name": "parseDDP"
+    },
+    {
+      "name": "stringifyDDP"
+    },
+    {
+      "name": "allConnections"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "json"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "deps"
+    },
+    {
+      "package": "logging"
+    },
+    {
+      "package": "webapp",
+      "weak": true
+    },
+    {
+      "package": "routepolicy",
+      "weak": true
+    },
+    {
+      "package": "audit-argument-checks",
+      "weak": true
+    },
+    {
+      "package": "autopublish",
+      "weak": true
+    },
+    {
+      "package": "facts",
+      "weak": true
+    },
+    {
+      "package": "minimongo"
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os.linux.x86_64/packages/livedata.js",
+      "length": 486233,
+      "offset": 0,
+      "servePath": "/packages/livedata.js",
+      "sourceMap": "os.linux.x86_64/packages/livedata.js.map"
+    }
+  ]
+}

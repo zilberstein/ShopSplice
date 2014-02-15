@@ -1,0 +1,19 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/amplify.js",
+      "length": 82707,
+      "offset": 0,
+      "servePath": "/packages/amplify.js",
+      "sourceMap": "browser/packages/amplify.js.map"
+    }
+  ]
+}

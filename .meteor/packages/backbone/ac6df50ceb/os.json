@@ -1,0 +1,28 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "jquery"
+    },
+    {
+      "package": "json"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/backbone.js",
+      "length": 175427,
+      "offset": 0,
+      "servePath": "/packages/backbone.js",
+      "sourceMap": "os/packages/backbone.js.map"
+    }
+  ]
+}

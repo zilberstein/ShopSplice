@@ -1,0 +1,33 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "Reload",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "logging"
+    },
+    {
+      "package": "json"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/reload.js",
+      "length": 18088,
+      "offset": 0,
+      "servePath": "/packages/reload.js",
+      "sourceMap": "browser/packages/reload.js.map"
+    }
+  ]
+}

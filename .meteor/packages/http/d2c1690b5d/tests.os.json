@@ -1,0 +1,35 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "webapp"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "http"
+    },
+    {
+      "package": "test-helpers"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.os/packages/httptests.js",
+      "length": 60630,
+      "offset": 0,
+      "servePath": "/packages/http:tests.js",
+      "sourceMap": "tests.os/packages/httptests.js.map"
+    }
+  ]
+}

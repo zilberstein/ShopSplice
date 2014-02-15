@@ -1,0 +1,29 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/ejsontests.js",
+      "length": 24632,
+      "offset": 0,
+      "servePath": "/packages/ejson:tests.js",
+      "sourceMap": "tests.browser/packages/ejsontests.js.map"
+    }
+  ]
+}

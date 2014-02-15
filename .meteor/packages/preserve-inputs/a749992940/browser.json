@@ -1,0 +1,25 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "spark"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/preserve-inputs.js",
+      "length": 1128,
+      "offset": 0,
+      "servePath": "/packages/preserve-inputs.js",
+      "sourceMap": "browser/packages/preserve-inputs.js.map"
+    }
+  ]
+}

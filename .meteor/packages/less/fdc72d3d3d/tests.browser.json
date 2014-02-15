@@ -1,0 +1,39 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "test-helpers"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "less"
+    },
+    {
+      "package": "spark"
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "tests.browser/packages/less/less_tests.less.css",
+      "length": 130,
+      "offset": 0,
+      "servePath": "/packages/less/less_tests.less.css"
+    },
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/lesstests.js",
+      "length": 1727,
+      "offset": 0,
+      "servePath": "/packages/less:tests.js",
+      "sourceMap": "tests.browser/packages/lesstests.js.map"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "s"
+    },
+    {
+      "name": "ar"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "jquery"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/jquery-layout.js",
+      "length": 754347,
+      "offset": 0,
+      "servePath": "/packages/jquery-layout.js",
+      "sourceMap": "browser/packages/jquery-layout.js.map"
+    }
+  ]
+}

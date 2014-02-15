@@ -1,0 +1,26 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "deps"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/depstests.js",
+      "length": 28852,
+      "offset": 0,
+      "servePath": "/packages/deps:tests.js",
+      "sourceMap": "tests.browser/packages/depstests.js.map"
+    }
+  ]
+}

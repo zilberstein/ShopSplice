@@ -1,0 +1,39 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "Facebook",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "oauth2"
+    },
+    {
+      "package": "oauth"
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "service-configuration"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/facebook.js",
+      "length": 7211,
+      "offset": 0,
+      "servePath": "/packages/facebook.js",
+      "sourceMap": "browser/packages/facebook.js.map"
+    }
+  ]
+}

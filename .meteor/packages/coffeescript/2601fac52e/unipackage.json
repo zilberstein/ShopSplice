@@ -1,0 +1,49 @@
+{
+  "format": "unipackage-pre1",
+  "summary": "Javascript dialect with fewer braces and semicolons",
+  "slices": [
+    {
+      "name": "main",
+      "arch": "browser",
+      "path": "browser.json"
+    },
+    {
+      "name": "main",
+      "arch": "os",
+      "path": "os.json"
+    },
+    {
+      "name": "tests",
+      "arch": "browser",
+      "path": "tests.browser.json"
+    },
+    {
+      "name": "tests",
+      "arch": "os",
+      "path": "tests.os.json"
+    }
+  ],
+  "defaultSlices": {
+    "browser": [
+      "main"
+    ],
+    "os": [
+      "main"
+    ]
+  },
+  "testSlices": {
+    "browser": [
+      "tests"
+    ],
+    "os": [
+      "tests"
+    ]
+  },
+  "plugins": [
+    {
+      "name": "compileCoffeescript",
+      "arch": "os",
+      "path": "plugin.compileCoffeescript.os/program.json"
+    }
+  ]
+}

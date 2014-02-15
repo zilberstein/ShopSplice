@@ -1,0 +1,53 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "htmljs"
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "handlebars"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "test-helpers"
+    },
+    {
+      "package": "domutils"
+    },
+    {
+      "package": "session"
+    },
+    {
+      "package": "deps"
+    },
+    {
+      "package": "spark"
+    },
+    {
+      "package": "minimongo"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/templatingtests.js",
+      "length": 153330,
+      "offset": 0,
+      "servePath": "/packages/templating:tests.js",
+      "sourceMap": "tests.browser/packages/templatingtests.js.map"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "EJSON",
+      "export": true
+    },
+    {
+      "name": "EJSONTest",
+      "export": "tests"
+    },
+    {
+      "name": "base64Encode"
+    },
+    {
+      "name": "base64Decode"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "json"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/ejson.js",
+      "length": 66032,
+      "offset": 0,
+      "servePath": "/packages/ejson.js",
+      "sourceMap": "browser/packages/ejson.js.map"
+    }
+  ]
+}

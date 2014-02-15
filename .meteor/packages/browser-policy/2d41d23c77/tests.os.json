@@ -1,0 +1,29 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "browser-policy"
+    },
+    {
+      "package": "ejson"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.os/packages/browser-policytests.js",
+      "length": 15530,
+      "offset": 0,
+      "servePath": "/packages/browser-policy:tests.js",
+      "sourceMap": "tests.os/packages/browser-policytests.js.map"
+    }
+  ]
+}

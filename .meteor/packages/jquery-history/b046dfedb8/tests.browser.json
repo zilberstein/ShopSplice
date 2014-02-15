@@ -1,0 +1,20 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.browser/packages/jquery-historytests.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/jquery-history:tests.js",
+      "sourceMap": "tests.browser/packages/jquery-historytests.js.map"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "SRP",
+      "export": true
+    },
+    {
+      "name": "BigInteger"
+    },
+    {
+      "name": "SHA256"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/srp.js",
+      "length": 209810,
+      "offset": 0,
+      "servePath": "/packages/srp.js",
+      "sourceMap": "os/packages/srp.js.map"
+    }
+  ]
+}

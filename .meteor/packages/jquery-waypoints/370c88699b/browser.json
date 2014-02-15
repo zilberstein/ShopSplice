@@ -1,0 +1,22 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "jquery"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "browser/packages/jquery-waypoints.js",
+      "length": 66940,
+      "offset": 0,
+      "servePath": "/packages/jquery-waypoints.js",
+      "sourceMap": "browser/packages/jquery-waypoints.js.map"
+    }
+  ]
+}

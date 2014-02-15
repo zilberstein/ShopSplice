@@ -1,0 +1,32 @@
+{
+  "format": "unipackage-slice-pre1",
+  "noExports": true,
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "test-helpers"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "less"
+    },
+    {
+      "package": "spark"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "tests.os/packages/lesstests.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/less:tests.js",
+      "sourceMap": "tests.os/packages/lesstests.js.map"
+    }
+  ]
+}

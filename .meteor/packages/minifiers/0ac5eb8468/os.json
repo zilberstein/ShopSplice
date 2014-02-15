@@ -1,0 +1,29 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [
+    {
+      "name": "CleanCSSProcess",
+      "export": true
+    },
+    {
+      "name": "UglifyJSMinify",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/minifiers.js",
+      "length": 1202,
+      "offset": 0,
+      "servePath": "/packages/minifiers.js",
+      "sourceMap": "os/packages/minifiers.js.map"
+    }
+  ]
+}

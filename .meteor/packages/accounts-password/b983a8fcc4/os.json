@@ -1,0 +1,45 @@
+{
+  "format": "unipackage-slice-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "accounts-base"
+    },
+    {
+      "package": "srp"
+    },
+    {
+      "package": "email"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "livedata"
+    }
+  ],
+  "implies": [
+    {
+      "package": "accounts-base"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/accounts-password.js",
+      "length": 62665,
+      "offset": 0,
+      "servePath": "/packages/accounts-password.js",
+      "sourceMap": "os/packages/accounts-password.js.map"
+    }
+  ]
+}
