@@ -1,25 +1,47 @@
   <head>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Grocery Splice</title>
+    <title>Shop Splice</title>
   </head>
   <body>
     <div id="title">
       <h1>Shop<span class="splice">Splice</span></h1>
     </div>
     <div id="receipt">
-      <h2>Place Where I Bought Stuff</h2>
-      <h3>2/15/2014</h3>
-      <table>
-	{{> receipt}}
-      </table>
+	     {{> receipt-form}}
     </div>
 </body>
 
+<template name="date">
+  {{date}}
+</template>
 <template name="receipt">
-  {{#each items}}
-  <tr>
-    <td><input type="checkbox">{{name}}</td>
-    <td>${{price}}</td>
-  </tr>
+  {{#each things}}
+  <h2>{{name}}</h2>
+  <h3>{{date}}</h3>
+  <table>
+    {{#each items}}
+    <tr>
+      <td class="l"><input type="checkbox">{{name}}</td>
+      <td class="r">${{price}}</td>
+    </tr>
+    {{/each}}
+  </table>
   {{/each}}
+</template>
+
+<template name="receipt-form">
+  <h2><input type="text" placeholder="Receipt Name"></h2>
+  <h3>{{date}}</h3>
+  <table id="rtable">
+    {{> receipt-field}}
+  </table>
+  <button id="add-field">+</button>
+  <h4>Subtotal: $<span class="st">0.00</span></h4>
+</template>
+
+<template name="receipt-field">
+  <tr>
+      <td class="l"><input type="checkbox" disabled><input type="text" placeholder="Item"></td>
+      <td class="r">$<input type="text" class="price" placeholder="0.00"></td>
+    </tr>
 </template>

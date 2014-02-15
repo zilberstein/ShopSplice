@@ -28,6 +28,11 @@ body {
   box-shadow: 0 5px 10px #000;
 }
 
+#receipt * {
+  font-family: inherit;
+  font-size: inherit;
+}
+
 #receipt table {
   width: 100%;
   font-size: 16pt;
@@ -38,4 +43,33 @@ body {
 }
 .r {
   text-align: right;
+}
+
+#receipt input {
+  border: none;
+  padding: 0
+  margin: 0;
+  outline: none;
+}
+#receipt h4 {
+  text-align: right;
+}
+
+#receipt h2 input {
+  text-align: center;
+}
+#add-field {
+  float: left;
+  background-color: #00bbee;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  font-weight: bold;
+}
+#add-field:hover {
+  background-color: #0099CC;
+}
+
+#rtable .r input {
+  width: 100px;
 }
