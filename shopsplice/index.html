@@ -10,10 +10,16 @@
       <h2>Place Where I Bought Stuff</h2>
       <h3>2/15/2014</h3>
       <table>
-        <tr>
-          <td class="l"><input type="checkbox">Item 1</td>
-          <td class="r">$12.34</td>
-        </tr>
+	{{> receipt}}
       </table>
     </div>
 </body>
+
+<template name="receipt">
+  {{#each items}}
+  <tr>
+    <td><input type="checkbox">{{name}}</td>
+    <td>${{price}}</td>
+  </tr>
+  {{/each}}
+</template>
