@@ -83,3 +83,11 @@ ls
 cat index.html
 sudo apt-get meteor
 curl https://install.meteor.com/ | sh
+rm index.html 
+git pull
+git pull origin master
+ls
+less index.html 
+emacs index.html
+python -m SimpleHTTPServer 80
+python -m SimpleHTTPServer 80&
