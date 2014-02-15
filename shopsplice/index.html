@@ -21,22 +21,22 @@
     {{#each items}}
     <tr>
       <td class="l"><input type="checkbox">{{name}}</td>
-      <td class="sto">${{price}}</td>
+      <td class="sto">${{formatNum price}}</td>
     </tr>
     {{/each}}
   </table>
   <table id="stable">
     <tr>
       <td colspan=2>Subtotal:</td>
-      <td class="sto">$<span class="st">{{subtotal}}</span></td>
+      <td class="sto">$<span class="st">{{formatNum subtotal}}</span></td>
     </tr>
     <tr>
       <td colspan=2>Tax:</td>
-      <td class="sto">$<span class="tax">{{tax}}</span></td>
+      <td class="sto">$<span class="tax">{{formatNum tax}}</span></td>
     </tr>
     <tr>
       <td colspan=2>Total:</td>
-      <td class="sto">$<span class="total">{{total}}</span></td>
+      <td class="sto">$<span class="total">{{formatNum total}}</span></td>
     </tr>
   </table>
   {{/each}}
@@ -71,7 +71,7 @@
 <template name="receipt-field">
   <tr class="field">
       <td class="l"><input type="checkbox" disabled><input class="iname" type="text" placeholder="Item"></td>
-      <td class="r">$<input type="text" class="price" placeholder="0.00"></td>
+      <td class="sto">$<input type="text" class="price" placeholder="0.00"></td>
     </tr>
 </template>
 

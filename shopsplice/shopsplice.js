@@ -2,10 +2,14 @@ Items = new Meteor.Collection("items");
 
 if (Meteor.isClient) {
   Template.receipt.things = function () {
-      return Items.find({_id:"r7DMzbNRiL4Nf2ubF"}, {sort: {name: 1, price: -1}}).fetch();
+      return Items.find({_id:"sz9a2AAh5gSX3X3dT"}, {sort: {name: 1, price: -1}}).fetch();
   };
   Template["receipt-form"].date = new Date().toLocaleDateString();
   Template.date.date = Date;
+
+  Handlebars.registerHelper('formatNum', function(n){
+    return n.toFixed(2);
+  });
 
 
   Meteor.startup(function(){
