@@ -19,9 +19,9 @@
   <h3>{{date}}</h3>
   <table>
     {{#each items}}
-    <tr>
-      <td class="l"><input type="checkbox">{{name}}</td>
-      <td class="sto">${{formatNum price}}</td>
+    <tr class="itemNF">
+      <td class="l"><input type="checkbox"><span class="actualName">{{name}}</span></td>
+      <td class="sto">$<span class="actualPrice">{{formatNum price}}</span></td>
     </tr>
     {{/each}}
   </table>
@@ -37,6 +37,10 @@
     <tr>
       <td colspan=2>Total:</td>
       <td class="sto">$<span class="total">{{formatNum total}}</span></td>
+    </tr>
+    <tr class="me">
+      <td colspan=2>My Contribution:</td>
+      <td class="sto">$<span class="myTotal">0.00</span></td>
     </tr>
   </table>
   {{/each}}

@@ -2,7 +2,24 @@ Items = new Meteor.Collection("items");
 
 if (Meteor.isClient) {
   Template.receipt.things = function () {
-      return Items.find({_id:"sz9a2AAh5gSX3X3dT"}, {sort: {name: 1, price: -1}}).fetch();
+      items = Items.find({_id:"CQt2mRTXk3n6kQJBd"}, {sort: {name: 1, price: -1}}).fetch();
+      Meteor.defer(function() {
+      $('input[type=checkbox]').click(function() {
+        receipt = Items.find({_id:"CQt2mRTXk3n6kQJBd"}).fetch();
+        items = $('tr.itemNF');
+        sum = 0;
+        for (i=0; i<items.length; i++) {
+          if ($(items[i]).find('input[type=checkbox]').is(':checked')) {
+            sum = sum + Number($(items[i]).find('.actualPrice').html());
+          }
+        }
+        subtotal = Number($('.st').html());
+        tax = Number($('.tax').html());
+        sum = sum + (tax * sum / subtotal);
+        $('.myTotal').html(sum.toFixed(2));
+      });
+    });
+      return items;
   };
   Template["receipt-form"].date = new Date().toLocaleDateString();
   Template.date.date = Date;
@@ -42,6 +59,7 @@ if (Meteor.isClient) {
     $('.price').blur(fixNums);
     $('.tax').keyup(updateTotals);
     $('.tax').blur(fixNums);
+    
     $('#submit').click(function(){
       var newR = {};
       newR.name = $('#nameR').val();
