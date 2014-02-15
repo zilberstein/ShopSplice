@@ -1,0 +1,40 @@
+body {
+  font-family: Helvetica Neue;
+  background: linear-gradient(0deg, #006666 0%,#0099CC 100%);
+}
+#title {
+  color: #ffffff;
+}
+#title h1 {
+  font-weight: 200;
+  font-size: 69pt;
+  text-align: center;
+  text-shadow: 0px 0px 20px #000;
+}
+#title h1 .splice {
+  font-weight: 400;
+  color: #44ccff;
+}
+
+#receipt {
+  background-color: white;
+  padding: 25px;
+  width: 800px;
+  margin: 0 auto;
+  font-size: 16pt;
+  text-align: center;
+  font-family: monospace;
+  box-shadow: 0 5px 10px #000;
+}
+
+#receipt table {
+  width: 100%;
+  font-size: 16pt;
+}
+
+.l {
+  text-align: left;
+}
+.r {
+  text-align: right;
+}
