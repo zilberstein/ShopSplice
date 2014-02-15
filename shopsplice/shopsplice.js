@@ -2,7 +2,7 @@ Items = new Meteor.Collection("items");
 
 if (Meteor.isClient) {
   Template.receipt.things = function () {
-      return Items.find({name:"Hello World"}).fetch();
+      return Items.find({name:"Hello World"}, {sort: {name: 1, price: -1}}).fetch();
   };
   Template["receipt-form"].date = Date;
   Template.date.date = Date;
