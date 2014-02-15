@@ -2,7 +2,7 @@ Items = new Meteor.Collection("items");
 
 if (Meteor.isClient) {
   Template.receipt.items = function () {
-      return Items.find().fetch();
+      return Items.find({}, {sort: {name: 1, price: -1}});
   };
 
   /*  Template.hello.events({
