@@ -30,7 +30,7 @@
 </template>
 
 <template name="receipt-form">
-  <h2><input type="text" placeholder="Receipt Name"></h2>
+  <h2><input type="text" id="nameR" placeholder="Receipt Name"></h2>
   <h3>{{date}}</h3>
   <table id="rtable">
     {{> receipt-field}}
@@ -56,8 +56,12 @@
 </template>
 
 <template name="receipt-field">
-  <tr>
-      <td class="l"><input type="checkbox" disabled><input type="text" placeholder="Item"></td>
+  <tr class="field">
+      <td class="l"><input type="checkbox" disabled><input class="iname" type="text" placeholder="Item"></td>
       <td class="r">$<input type="text" class="price" placeholder="0.00"></td>
     </tr>
+</template>
+
+<template name="congrats-mess">
+  <h3>Your receipt is {{id}}</h3>
 </template>

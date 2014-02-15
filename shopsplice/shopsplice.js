@@ -2,7 +2,7 @@ Items = new Meteor.Collection("items");
 
 if (Meteor.isClient) {
   Template.receipt.things = function () {
-      return Items.find({name:"Hello World"}, {sort: {name: 1, price: -1}}).fetch();
+      return Items.find({_id:"SCabhcS9rpG53LLbN"}, {sort: {name: 1, price: -1}}).fetch();
   };
   Template["receipt-form"].date = Date;
   Template.date.date = Date;
@@ -40,6 +40,22 @@ if (Meteor.isClient) {
     $('.tax').blur(fixNums);
     $('#submit').click(function(){
       var newR = {};
+      newR.name = $('#nameR').val();
+      newR.date = Date();
+      newR.tax = Number($('.tax').val());
+      newR.items = []
+      items = $('.field');
+      for (i = 0; i< items.length; i++) {
+        item = {}
+        item.name = $(items[i]).find('.iname').val();
+        item.price = Number($(items[i]).find('.price').val());
+        item.people = [];
+        newR.items[i] = item;
+      }
+      var id = Items.insert(newR);
+      $('#receipt').html(Meteor.render(function(){
+        return Template['congrats-mess']({id:id});
+      }))
     });
   });
 }
