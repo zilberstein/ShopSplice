@@ -52,7 +52,11 @@ body {
   outline: none;
 }
 #receipt h4 {
-  text-align: right;
+  text-align: left;
+  width: 200px;
+  float: right;
+  padding: 0;
+  margin: 0;
 }
 
 #receipt h2 input {
@@ -72,4 +76,23 @@ body {
 
 #rtable .r input {
   width: 100px;
+}
+#stable {
+  text-align: right;
+}
+#stable .sto {
+  width: 100px;
+  text-align: left;
+}
+#stable .sto input {
+  width: 80px;
+  text-align: left;
+}
+#submit {
+  font-family: Helvetica Neue, Helvetica;
+  float: right;
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 3px;
 }
